@@ -1,0 +1,130 @@
+/*Cabeçalho*/
+.titulo {
+    font-size: 64px;
+    text-align: center;
+    padding: 60px 0 20px 0;
+}
+
+/*Cabeçalho- Rodapé*/
+.cabecalho-rodape {
+    background-color: #91E674;
+    display: grid;
+    grid-template-columns: 15% 70% 15%;
+}
+
+.folhas-1 {
+    width: 100%;
+}
+
+.folhas-2 {
+    width: 100%;
+    padding: 6px 0 0 0;
+}
+
+/*Rodapé*/
+.msg-final {
+    font-size: 20px;
+    text-align: center;
+    padding: 90px 0 60px 0;
+}
+
+/*Frases e Cartazes*/
+.frases-e-cartazes {
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.cartaz {
+    width: 50%;
+    padding: 125px 25px 125px 150px;
+}
+
+/*Primeiro Conjunto de Frases*/
+.frases-1 {
+    text-align: center;
+    font-size: 25px;
+    padding: 100px 150px 15px 25px;
+    font-weight: bold;
+}
+
+.frases-2 {
+    text-align: center;
+    font-size: 20px;
+    padding: 15px 150px 10px 25px;
+}
+
+.frases-3 {
+    text-align: center;
+    font-size: 20px;
+    padding: 10px 150px 50px 25px;
+}
+
+/*Segundo Conjunto de Frases*/
+.frases-4 {
+    text-align: center;
+    font-size: 25px;
+    padding: 125px 25px 15px 150px;
+    font-weight: bold;
+}
+
+.frases-5 {
+    text-align: center;
+    font-size: 20px;
+    padding: 15px 25px 50px 150px;
+}
+
+/*Seção Botões*/
+.tipos-produtos {
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+/*Botões da Direita*/
+.botoes-d {
+    background-color: #91E674;
+    font-size: 30px;
+    padding: 20px;
+    border-radius: 20px;
+    color: black;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+    margin: 30px 50px 30px 100px;
+}
+
+.botoes-d:hover {
+    background-color: #b7f3a3;
+    font-size: 30px;
+    padding: 20px;
+    border-radius: 20px;
+    color: black;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+    margin: 30px 50px 30px 100px;
+}
+
+/*Botões da Esquerda*/
+.botoes-e {
+    background-color: #91E674;
+    font-size: 30px;
+    padding: 20px;
+    border-radius: 20px;
+    color: black;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+    margin: 30px 100px 30px 50px;
+}
+
+.botoes-e:hover {
+    background-color: #b7f3a3;
+    font-size: 30px;
+    padding: 20px;
+    border-radius: 20px;
+    color: black;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+    margin: 30px 100px 30px 50px;
+}
