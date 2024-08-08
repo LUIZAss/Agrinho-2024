@@ -1,27 +1,25 @@
-/*Cabeçalho*/
+/*Cabeçalho-rodapé*/
 .titulo {
     font-size: 64px;
     text-align: center;
     padding: 60px 0 20px 0;
 }
 
-/*Cabeçalho- Rodapé*/
 .cabecalho-rodape {
     background-color: #91E674;
     display: grid;
     grid-template-columns: 15% 70% 15%;
 }
 
-.folhas-1 {
+.desenho-cabecalho1 {
     width: 100%;
 }
 
-.folhas-2 {
+.desenho-cabecalho2 {
     width: 100%;
     padding: 6px 0 0 0;
 }
 
-/*Rodapé*/
 .msg-final {
     font-size: 20px;
     text-align: center;
@@ -29,28 +27,37 @@
 }
 
 /*Frases e Cartazes*/
+  .background {
+    background-color: #f0f0f0;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+h2 {
+  text-align: center;
+  font-size: 25px;
+  padding: 50px 0;
+  font-weight: bold;
+}
+
 .frases-e-cartazes {
     display: grid;
     grid-template-columns: 50% 50%;
+    justify-items: center;
+    align-items: center;
 }
 
-.cartaz {
+.cartaz1 {
     width: 50%;
-    padding: 125px 25px 125px 150px;
-}
-
-/*Primeiro Conjunto de Frases*/
-.frases-1 {
-    text-align: center;
-    font-size: 25px;
-    padding: 100px 150px 15px 25px;
-    font-weight: bold;
+    padding: 50px 25px 50px 150px;
 }
 
 .frases-2 {
     text-align: center;
     font-size: 20px;
-    padding: 15px 150px 10px 25px;
+    padding: 50px 150px 10px 25px;
 }
 
 .frases-3 {
@@ -59,21 +66,19 @@
     padding: 10px 150px 50px 25px;
 }
 
-/*Segundo Conjunto de Frases*/
-.frases-4 {
-    text-align: center;
-    font-size: 25px;
-    padding: 125px 25px 15px 150px;
-    font-weight: bold;
+.cartaz2 {
+  width: 50%;
+  padding: 50px 150px 50px 25px;
 }
 
 .frases-5 {
     text-align: center;
     font-size: 20px;
-    padding: 15px 25px 50px 150px;
+    padding: 50px 25px 50px 150px;
 }
 
 /*Seção Botões*/
+  
 .tipos-produtos {
     display: grid;
     grid-template-columns: 50% 50%;
@@ -90,6 +95,8 @@
     display: block;
     text-align: center;
     margin: 30px 50px 30px 100px;
+    cursor: pointer;
+    transition: transform 0.3s ease;
 }
 
 .botoes-d:hover {
@@ -102,6 +109,7 @@
     display: block;
     text-align: center;
     margin: 30px 50px 30px 100px;
+    transform: scale(1.05);
 }
 
 /*Botões da Esquerda*/
@@ -115,6 +123,8 @@
     display: block;
     text-align: center;
     margin: 30px 100px 30px 50px;
+    cursor: pointer;
+    transition: transform 0.3s ease;
 }
 
 .botoes-e:hover {
@@ -127,4 +137,132 @@
     display: block;
     text-align: center;
     margin: 30px 100px 30px 50px;
+    transform: scale(1.05);
+}
+
+
+
+/*5 botões*/ 
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+
+.botao-principal {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 24px;
+    margin: 0 center;
+}
+
+.botao-home {
+    padding: 8px 16px;
+    font-size: 1.25rem;
+    color: #f0f0f0;
+    background-color: #10b981;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+.botao-home:hover {
+    transform: scale(1.05);
+}
+
+.box-descricao {
+    width: 90%;
+    max-width: 800px;
+    background-color: #91E674;
+    border-radius: 10px;
+    margin-top: 24px;
+    margin-bottom: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+  
+h5 {
+    text-align: center;
+    padding: 24px;
+    font-size: 1.5rem;
+    font-weight: 500;
+} 
+
+.modal-image {
+    border: 4px dashed #10b981;
+    margin-bottom: 8px;
+    width: 100%;
+    max-width: 200px;
+    height: auto;
+    border-radius: 8px;
+    align-items: center;
+    justify-content: center;
+}
+
+.descricao-alimentos {
+    padding: 16px;
+    text-align: justify;
+    justify-items: center;
+    align-items: center;
+}
+  
+.texto {
+    font-size: 1rem;
+    margin-bottom: 8px;
+}
+
+b {
+    font-weight: bolder;
+}
+
+i {
+  font-style: italic;
+}
+
+.anterior-proximo {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    justify-items: center;
+    align-items: center;
+    padding: 0 25px 50px 25px;
+    width: 10rem;
+    margin: 0 25px 0 25px;
+}
+
+.anterior-proximo {
+  display: flex;
+  grid-template-columns: 50% 50%;
+  justify-items: center;
+  align-items: center;
+  padding: 0 25px 50px 25px;
+  width: 10rem;
+  margin: 0 25px 0 25px;
+}
+
+.botao-anterior {
+  padding: 0 50px 50px 50px;
+  justify-items: center;
+  align-items: center;
+  color: #f0f0f0;
+}
+
+.botao-proximo {
+  padding: 0 50px 50px 50px;
+  justify-items: center;
+  align-items: center;
+  color: #f0f0f0;
+}
+
+/*frutas.html*/
+.desenho-cabecalho-fruta1 {
+    width: 90%;
+}
+
+.desenho-cabecalho-fruta2 {
+    width: 100%;
+    padding: 45px 0 0 0;
 }
